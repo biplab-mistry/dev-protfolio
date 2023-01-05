@@ -10,6 +10,7 @@
 }
 h1,h2,h3,h4,h5,h6,p{
     line-height: 0.8;
+    margin-bottom: 0;
 }
 img{
     vertical-align: middle;
@@ -88,7 +89,7 @@ nav{
 }
 .banner{
     background-image: url(../images/header_bg.png) ,url(../images/developer.png);
-    background-position: right bottom ,left;
+    background-position: right bottom ,left center;
     background-repeat: no-repeat;
 }
 .banner-content h2{
@@ -153,3 +154,67 @@ nav{
 
 }
 /* banner part start End */
+/* about part start here */
+#about{
+    margin-top: 120px;
+}
+.about-item{
+    padding: 130px 155px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+}
+.common-title{
+    text-align: center;
+}
+.common-title h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+   color: #181818;
+}
+.about-item{
+    text-align: center;
+}
+.about-item ul {
+    display: flex;
+    justify-content: space-around;
+}
+.about-item ul a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+.about-item ul p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+.about-item .innerpara{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    padding-bottom: 25px;
+    padding-top: 18px;
+}
+/* about part End here */
+/* skillpart start here */
+#skill{
+    margin-top: 130px;
+}
+.skill-item{
+    margin: 0 auto;
+    text-align: center;
+}
+.skill-item p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 100px;
+    padding-top: 20px;
+}
+/* skillpart ENd here */
