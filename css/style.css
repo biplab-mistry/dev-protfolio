@@ -109,11 +109,11 @@ nav {
     background-color: #FFF8F3;
     padding-top: 50px;
 }
-
 .banner {
     background-image: url(../images/header_bg.png), url(../images/developer.png);
-    background-position: right bottom, left center;
+    background-position:right bottom, left bottom;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .banner-content h2 {
@@ -153,23 +153,37 @@ nav {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 700;
-    color: #fff;
+    color: #FD6E0A;
     padding: 12px 15px;
-    background-color: #FD6E0A;
     text-transform: capitalize;
     border-radius: 5px;
     margin-right: 25px;
+    border: 1px solid #FD6E0A;
+    transition: all linear .3s;
 
 }
-
+.banner-content .btn1:hover{
+    background-color: #FD6E0A;
+    color: #fff;
+}
+.banner-content .btn1:hover i{
+    color: #fff;
+}
 .banner-content .btn2 i {
     font-size: 24px;
     color: #FD6E0A;
+    transition: all linear .3s;
 }
-
+.banner-content .btn2:hover{
+    background-color: #FD6E0A;
+    color: #fff;
+}
+.banner-content .btn2:hover i{
+    color: #fff;
+}
 .banner-content .btn1 i {
     font-size: 24px;
-    color: #Fff;
+    color: #FD6E0A;
 }
 
 .banner-content .btn2 {
@@ -182,9 +196,9 @@ nav {
     text-transform: capitalize;
     border-radius: 5px;
     background-color: #FFF8F3;
+    transition: all linear .3s;
 
 }
-
 /* banner part start End */
 /* about part start here */
 #about {
@@ -364,16 +378,20 @@ nav {
 
 #summary .download a {
     padding: 10px 17px;
-    background-color: #FD6E0A;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 20px;
-    color: #fff;
     text-transform: capitalize;
     border-radius: 10px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    transition: all linear .3s;
 
 }
-
+#summary .download a:hover{
+    background-color: #FD6E0A;
+    color: #fff;
+}
 /* footer part start here */
 #footer {
     background-color: #FFF8F3;
@@ -445,6 +463,8 @@ nav {
 .footer-right textarea {
     margin-top: 24px;
     border: 0;
+    padding-top: 18px;
+    padding-left: 30px;
 }
 
 /* footer part End Here */
