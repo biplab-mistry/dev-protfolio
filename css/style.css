@@ -111,9 +111,9 @@ nav {
 }
 .banner {
     background-image: url(../images/header_bg.png), url(../images/developer.png);
-    background-position:right bottom, left bottom;
+    background-position:right bottom, left top;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: contain;
 }
 
 .banner-content h2 {
