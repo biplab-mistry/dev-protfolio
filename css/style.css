@@ -1,30 +1,47 @@
+/* common css start here */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
 }
-h1,h2,h3,h4,h5,h6,p{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     line-height: 0.8;
     margin-bottom: 0;
 }
-img{
+
+img {
     vertical-align: middle;
 }
+
 a {
     text-decoration: none;
 }
 
-ul,ol {
+ul,
+ol {
     list-style-type: none;
 }
 
-/* navbar part start */
-nav{
+/* common css End here */
+/* navbar part start  Here*/
+nav {
     position: absolute;
     top: 0;
     left: 0;
@@ -32,9 +49,11 @@ nav{
     z-index: 999;
     padding-top: 45px;
 }
-.banner-wrapper{
+
+.banner-wrapper {
     padding-top: 45px;
 }
+
 .menu-wrapper {
     display: flex;
     justify-content: space-between;
@@ -44,11 +63,12 @@ nav{
     display: inline-block;
     padding-right: 45px;
 }
+
 .menu ul li:last-child {
     padding-right: 0px;
 }
 
-.menu ul li button{
+.menu ul li button {
     padding: 18px 35px;
     background-color: #FD6E0A;
     border: 0;
@@ -56,9 +76,11 @@ nav{
     text-transform: capitalize;
     border-radius: 5px;
 }
-.banner-image img{
+
+.banner-image img {
     padding-left: 20px;
 }
+
 .menu ul li a {
     text-transform: capitalize;
     font-family: 'Open Sans';
@@ -81,38 +103,43 @@ nav{
     color: #FD6E0A;
 }
 
-/* navbar part End */
+/* navbar part End Here */
 /* banner part start here */
-#banner{
+#banner {
     background-color: #FFF8F3;
     padding-top: 50px;
 }
-.banner{
-    background-image: url(../images/header_bg.png) ,url(../images/developer.png);
-    background-position: right bottom ,left center;
+
+.banner {
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-position: right bottom, left center;
     background-repeat: no-repeat;
 }
-.banner-content h2{
+
+.banner-content h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 45px;
     font-weight: 600;
     color: #474747;
 
 }
-.banner-wrapper{
+
+.banner-wrapper {
     display: flex;
     align-items: center;
 }
-.banner-content h1{
+
+.banner-content h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 85px;
     font-weight: 700;
     color: #181818;
-    padding-top: 5px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 30px;
 
 }
-.banner-content p{
+
+.banner-content p {
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     font-weight: 400;
@@ -121,7 +148,8 @@ nav{
     padding-bottom: 40px;
 
 }
-.banner-content .btn1{
+
+.banner-content .btn1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -133,15 +161,18 @@ nav{
     margin-right: 25px;
 
 }
-.banner-content .btn2 i{
+
+.banner-content .btn2 i {
     font-size: 24px;
     color: #FD6E0A;
 }
-.banner-content .btn1 i{
+
+.banner-content .btn1 i {
     font-size: 24px;
     color: #Fff;
 }
-.banner-content .btn2{
+
+.banner-content .btn2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -153,45 +184,54 @@ nav{
     background-color: #FFF8F3;
 
 }
+
 /* banner part start End */
 /* about part start here */
-#about{
+#about {
     margin-top: 120px;
 }
-.about-item{
+
+.about-item {
     padding: 130px 155px;
     background-color: #FFF8F3;
     border-radius: 10px;
 }
-.common-title{
+
+.common-title {
     text-align: center;
 }
-.common-title h3{
+
+.common-title h3 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 35px;
-   color: #181818;
+    color: #181818;
 }
-.about-item{
+
+.about-item {
     text-align: center;
 }
+
 .about-item ul {
     display: flex;
     justify-content: space-around;
 }
-.about-item ul a{
+
+.about-item ul a {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 20px;
     color: #474747;
 }
-.about-item ul p{
+
+.about-item ul p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: #757575;
 }
-.about-item .innerpara{
+
+.about-item .innerpara {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -200,16 +240,24 @@ nav{
     padding-bottom: 25px;
     padding-top: 18px;
 }
+
 /* about part End here */
 /* skillpart start here */
-#skill{
+#skill {
     margin-top: 130px;
+    background-color: ;
 }
-.skill-item{
+
+.skill-item {
     margin: 0 auto;
     text-align: center;
 }
-.skill-item p{
+
+.skill-header {
+    text-align: center;
+}
+
+.skill-header p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -217,4 +265,186 @@ nav{
     padding: 0 100px;
     padding-top: 20px;
 }
-/* skillpart ENd here */
+
+.skill-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.skill-items {
+    padding: 30px;
+    background-color: #FFFFFF;
+    margin-right: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+
+.skill-items:last-child {
+    margin-right: 0px;
+}
+
+.skill-icon img {
+    width: 44px;
+    height: 44px;
+}
+
+.skill-items h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 12px;
+    color: #181818;
+}
+
+.skill-items p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+/* skillpart End here */
+/* summary part start here */
+.summary-left h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    padding-top: 30px;
+}
+
+.summary-left h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.summary-left p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    padding-bottom: 25px;
+}
+
+.summary-left span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+
+.summary-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary-left {
+    margin-right: 30px;
+}
+
+.summary-header .common-title {
+    padding-top: 125px;
+    padding-bottom: 85px;
+}
+
+#summary .download {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+#summary .download a {
+    padding: 10px 17px;
+    background-color: #FD6E0A;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 10px;
+
+}
+
+/* footer part start here */
+#footer {
+    background-color: #FFF8F3;
+    margin-top: 185px;
+    padding-top: 75px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footer-left ul {
+    display: flex;
+
+}
+
+.footer-left h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #181818;
+}
+
+.footer-left p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    padding-right: 323px;
+}
+
+.footer-left ul li img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.footer-left ul li {
+    margin-right: 20px;
+
+}
+
+.footer-left ul li:last-child {
+    margin-right: 0px;
+
+}
+
+.footer-right input {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 0;
+}
+
+.footer-right label {
+    display: block;
+    margin-top: 28px;
+}
+
+.footer-right textarea {
+    margin-top: 24px;
+    border: 0;
+}
+
+/* footer part End Here */
