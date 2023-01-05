@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+img{
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style-type: none;
+}
+
+/* navbar part start */
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    padding-top: 45px;
+}
+.banner-wrapper{
+    padding-top: 45px;
+}
+.menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding-right: 45px;
+}
+.menu ul li:last-child {
+    padding-right: 0px;
+}
+
+.menu ul li button{
+    padding: 18px 35px;
+    background-color: #FD6E0A;
+    border: 0;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+.banner-image img{
+    padding-left: 20px;
+}
+.menu ul li a {
+    text-transform: capitalize;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+    color: #474747;
+}
+
+.logo h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+
+.logo h2 span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    color: #FD6E0A;
+}
+
+/* navbar part End */
+/* banner part start here */
+#banner{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+}
+.banner{
+    background-image: url(../images/header_bg.png) ,url(../images/developer.png);
+    background-position: right bottom ,left;
+    background-repeat: no-repeat;
+}
+.banner-content h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+
+}
+.banner-wrapper{
+    display: flex;
+    align-items: center;
+}
+.banner-content h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    padding-top: 5px;
+    padding-bottom: 20px;
+
+}
+.banner-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #181818;
+    line-height: 30px;
+    padding-bottom: 40px;
+
+}
+.banner-content .btn1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    padding: 12px 15px;
+    background-color: #FD6E0A;
+    text-transform: capitalize;
+    border-radius: 5px;
+    margin-right: 25px;
+
+}
+.banner-content .btn2 i{
+    font-size: 24px;
+    color: #FD6E0A;
+}
+.banner-content .btn1 i{
+    font-size: 24px;
+    color: #Fff;
+}
+.banner-content .btn2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FD6E0A;
+    padding: 12px 20px;
+    border: 1px solid #FD6E0A;
+    text-transform: capitalize;
+    border-radius: 5px;
+    background-color: #FFF8F3;
+
+}
+/* banner part start End */
