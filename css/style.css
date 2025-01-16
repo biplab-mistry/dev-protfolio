@@ -109,9 +109,10 @@ nav {
     background-color: #FFF8F3;
     padding-top: 50px;
 }
+
 .banner {
     background-image: url(../images/header_bg.png), url(../images/developer.png);
-    background-position:right bottom, left top;
+    background-position: right bottom, left top;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -162,25 +163,31 @@ nav {
     transition: all linear .3s;
 
 }
-.banner-content .btn1:hover{
+
+.banner-content .btn1:hover {
     background-color: #FD6E0A;
     color: #fff;
 }
-.banner-content .btn1:hover i{
+
+.banner-content .btn1:hover i {
     color: #fff;
 }
+
 .banner-content .btn2 i {
     font-size: 24px;
     color: #FD6E0A;
     transition: all linear .3s;
 }
-.banner-content .btn2:hover{
+
+.banner-content .btn2:hover {
     background-color: #FD6E0A;
     color: #fff;
 }
-.banner-content .btn2:hover i{
+
+.banner-content .btn2:hover i {
     color: #fff;
 }
+
 .banner-content .btn1 i {
     font-size: 24px;
     color: #FD6E0A;
@@ -199,6 +206,7 @@ nav {
     transition: all linear .3s;
 
 }
+
 /* banner part start End */
 /* about part start here */
 #about {
@@ -388,10 +396,12 @@ nav {
     transition: all linear .3s;
 
 }
-#summary .download a:hover{
+
+#summary .download a:hover {
     background-color: #FD6E0A;
     color: #fff;
 }
+
 /* footer part start here */
 #footer {
     background-color: #FFF8F3;
