@@ -83,7 +83,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-
+  .summary-left h4{
+    font-size: 20px;
+  }
   /* footer */
   .footer-wrapper {
     display: grid;
